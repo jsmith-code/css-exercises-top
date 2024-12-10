@@ -59,6 +59,8 @@
 
 .sidebar .photo {
   background-color: white;
+  display: grid;
+  align-items: center;
   color: black;
   font-size: 12px;
   font-weight: normal;
@@ -67,6 +69,8 @@
 
 
 .sidebar .side-content {
+  display: grid;
+  align-items: center;
   background-color: white;
   color: black;
   font-size: 16px;
