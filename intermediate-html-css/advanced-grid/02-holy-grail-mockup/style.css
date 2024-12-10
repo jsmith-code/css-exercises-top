@@ -26,13 +26,19 @@
 .header {
   grid-area: header;
   display: grid;
+  align-items: center;
   grid-template-columns: 2fr 3fr;
   grid-template-rows: 1fr;
   background-color: #393f4d;
 }
 
+.logo {
+  justify-self: start;
+}
+
 .menu ul{
   display: grid;
+  list-style: none;
   grid-template-columns: repeat(4, 1fr);
 }
 
