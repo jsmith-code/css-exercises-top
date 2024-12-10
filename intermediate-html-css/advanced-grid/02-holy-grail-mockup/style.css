@@ -50,6 +50,10 @@
 
 .sidebar {
   grid-area: sidebar;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1fr);
+  gap: 60px;
   background-color: #C50208;
 }
 
