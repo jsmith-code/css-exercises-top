@@ -13,6 +13,7 @@
   "sidebar nav"
   "sidebar article"
   "footer footer";
+  gap: 4px;
 }
 
 .container div {
