@@ -7,7 +7,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 150px auto 1fr auto;
+  grid-template-rows: 100px auto 1fr auto;
   grid-template-areas: 
   "header header"
   "sidebar nav"
