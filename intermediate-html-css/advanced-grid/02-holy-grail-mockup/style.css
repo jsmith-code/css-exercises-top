@@ -25,7 +25,15 @@
 
 .header {
   grid-area: header;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 1fr;
   background-color: #393f4d;
+}
+
+.menu ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .menu ul,
